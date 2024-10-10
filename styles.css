@@ -2,13 +2,13 @@ body {
     background-color: black;
     color: white;
     text-align: center;
-    margin-top: 12rem;
+    margin-top: 10rem;
     font-family: 'VT323', monospace; /* Fuente estilo máquina de escribir */
 }
 
 .enlace{
     color: white;
-    font-size: 40px;
+    font-size: 57px;
 }
 
 #contenido {
@@ -16,7 +16,7 @@ body {
 }
 
 #texto {
-    font-size: 60px;
+    font-size: 80px;
     display: inline; /* Mantiene el texto en la misma línea */
 }
 
@@ -43,13 +43,14 @@ p {
 @media (max-width: 768px) {
     body {
         margin-top: 6rem; /* Ajuste de margen para pantallas más pequeñas */
+        font-size: 16px; /* Ajusta el tamaño según sea necesario */
     }
 
     .enlace {
         font-size: 30px; /* Ajusta el tamaño de los enlaces */
     }
 
-    #texto {
+    .texto1 {
         font-size: 40px; /* Reduce el tamaño del texto principal en móviles */
     }
 
