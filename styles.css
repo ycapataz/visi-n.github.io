@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'VT323', monospace; /* Fuente estilo máquina de escribir */
+}
+
+.enlace{
+    color: white;
+}
+
+#contenido {
+    display: inline-block; /* Para que el cursor esté alineado con el texto */
+}
+
+#texto {
+    font-size: 24px;
+    display: inline; /* Mantiene el texto en la misma línea */
+}
+
+.cursor {
+    display: inline-block; /* Para que el cursor esté en línea con el texto */
+    width: 2px; /* Ancho del cursor */
+    background-color: white; /* Color del cursor (puedes cambiarlo si no es visible) */
+    animation: blink 0.75s step-end infinite; /* Efecto de parpadeo */
+    margin-left: 2px; /* Espacio entre el texto y el cursor */
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; } /* Efecto de parpadeo */
+}
+
+/* Agrega un estilo para párrafos o texto extra si es necesario */
+p {
+    font-size: 20px;
+    margin-top: 20px;
+}
