@@ -2,12 +2,13 @@ body {
     background-color: black;
     color: white;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 12rem;
     font-family: 'VT323', monospace; /* Fuente estilo máquina de escribir */
 }
 
 .enlace{
     color: white;
+    font-size: 40px;
 }
 
 #contenido {
@@ -15,7 +16,7 @@ body {
 }
 
 #texto {
-    font-size: 24px;
+    font-size: 60px;
     display: inline; /* Mantiene el texto en la misma línea */
 }
 

@@ -1,9 +1,9 @@
 const elementosTexto = [
-    "¡Te damos la bienvenida!",
-    "Estás invitado a un evento único...",
-    "Donde la magia y la diversión se encuentran...",
-    "Prepárate para una experiencia inolvidable...",
-    "Muy pronto, todo comenzará."
+    "Bienvenido.!",
+    "Esta es tu invitación...",
+    "Las sombras susurran...",
+    "La oscuridad aguarda..",
+    "30/11/2024."
 ];
 
 const elementoTexto = document.getElementById("texto");
